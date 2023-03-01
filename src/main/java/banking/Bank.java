@@ -70,8 +70,8 @@ public class Bank implements BankInterface {
     
     public void addAuthorizedUser(Long accountNumber, Person authorizedPerson) {
         if(accounts.get(accountNumber) != null){
-            if(accounts.get(accountNumber) instanceof CommercialAccount){
-                ((CommercialAccount) accounts.get(accountNumber)).addAuthorizedUser(authorizedPerson);
+            if(accounts.get(accountNumber) instanceof CommercialAccount account){
+                account.addAuthorizedUser(authorizedPerson);
             }
         }
     }

@@ -1,0 +1,10 @@
+banking\Person.class
+banking\CommercialAccount.class
+banking\ConsumerAccount.class
+banking\Account.class
+banking\AccountInterface.class
+banking\Transaction.class
+banking\TransactionInterface.class
+banking\BankInterface.class
+banking\AccountHolder.class
+banking\Company.class
